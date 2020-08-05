@@ -1,0 +1,364 @@
+{
+    "IIS": {
+        "HostableWebCore": {
+            "Type": "string",
+			"DefaultValue": "IIS-HostableWebCore"
+        },
+		"WebServerRole": {
+            "Type": "string",
+			"DefaultValue": "IIS-WebServerRole"
+        },
+		"WebServer": {
+            "Type": "string",
+			"DefaultValue": "IIS-WebServer"
+        },
+		"CommonHttpFeatures": {
+            "Type": "string",
+			"DefaultValue": "IIS-CommonHttpFeatures"
+        },
+		"HttpErrors": {
+            "Type": "string",
+			"DefaultValue": "IIS-HttpErrors"
+        },
+		"HttpRedirect": {
+            "Type": "string",
+			"DefaultValue": "IIS-HttpRedirect"
+        },
+		"ApplicationDevelopment": {
+            "Type": "string",
+			"DefaultValue": "IIS-ApplicationDevelopment"
+        },
+		"HealthAndDiagnostics": {
+            "Type": "string",
+			"DefaultValue": "IIS-HealthAndDiagnostics"
+        },
+		"HttpLogging": {
+            "Type": "string",
+			"DefaultValue": "IIS-HttpLogging"
+        },
+		"LoggingLibraries": {
+            "Type": "string",
+			"DefaultValue": "IIS-LoggingLibraries"
+        },
+		"RequestMonitor": {
+            "Type": "string",
+			"DefaultValue": "IIS-RequestMonitor"
+        },
+		"HttpTracing": {
+            "Type": "string",
+			"DefaultValue": "IIS-HttpTracing"
+        },
+		"Security": {
+            "Type": "string",
+			"DefaultValue": "IIS-Security"
+        },
+		"RequestFiltering": {
+            "Type": "string",
+			"DefaultValue": "IIS-RequestFiltering"
+        },
+		"Performance": {
+            "Type": "string",
+			"DefaultValue": "IIS-Performance"
+        },
+		"WebServerManagementTools": {
+            "Type": "string",
+			"DefaultValue": "IIS-WebServerManagementTools"
+        },
+		"IIS6ManagementCompatibility": {
+            "Type": "string",
+			"DefaultValue": "IIS-IIS6ManagementCompatibility"
+        },
+		"Metabase": {
+            "Type": "string",
+			"DefaultValue": "IIS-Metabase"
+        },
+		"ManagementConsole": {
+            "Type": "string",
+			"DefaultValue": "IIS-ManagementConsole"
+        },
+		"BasicAuthentication": {
+            "Type": "string",
+			"DefaultValue": "IIS-BasicAuthentication"
+        },
+		"WindowsAuthentication": {
+            "Type": "string",
+			"DefaultValue": "IIS-WindowsAuthentication"
+        },
+		"StaticContent": {
+            "Type": "string",
+			"DefaultValue": "IIS-StaticContent"
+        },
+		"DefaultDocument": {
+            "Type": "string",
+			"DefaultValue": "IIS-DefaultDocument"
+        },
+		"WebSockets": {
+            "Type": "string",
+			"DefaultValue": "IIS-WebSockets"
+        },
+		"ApplicationInit": {
+            "Type": "string",
+			"DefaultValue": "IIS-ApplicationInit"
+        },
+		"ISAPIExtensions": {
+            "Type": "string",
+			"DefaultValue": "IIS-ISAPIExtensions"
+        },
+		"ISAPIFilter": {
+            "Type": "string",
+			"DefaultValue": "IIS-ISAPIFilter"
+        },
+		"NetFx3": {
+            "Type": "string",
+			"DefaultValue": "NetFx3"
+        },
+		"NetFx4Extended-ASPNET45": {
+            "Type": "string",
+			"DefaultValue": "NetFx4Extended-ASPNET45"
+        },
+		"ApplicationInit": {
+            "Type": "string",
+			"DefaultValue": "IIS-ApplicationInit"
+        },
+		"NetFxExtensibility": {
+            "Type": "string",
+			"DefaultValue": "IIS-NetFxExtensibility"
+        },
+		"NetFxExtensibility45": {
+            "Type": "string",
+			"DefaultValue": "IIS-NetFxExtensibility45"
+        },
+		"ASPNET": {
+            "Type": "string",
+			"DefaultValue": "IIS-ASPNET"
+        },
+		"ASPNET45": {
+            "Type": "string",
+			"DefaultValue": "IIS-ASPNET45"
+        },
+		"HttpCompressionStatic": {
+            "Type": "string",
+			"DefaultValue": "IIS-HttpCompressionStatic"
+        }
+	},
+	"SQLServer": {
+		"SQLServer": {
+			"Type": "string",
+			"DefaultValue": "130",
+			"SecondaryValue": "MSSQL13"
+		}
+	},
+	"Java": {
+		"Version": {
+			"Type": "string",
+			"DefaultValue": "1.8.0_151"
+		}	
+	},
+	"WPI": {
+		"WebDeploy": {
+			"Type": "string",
+			"DefaultValue": "3",
+			"SecondaryValue": "9.0.1962.0",
+			"FinalValue": "9.0.1973.0"
+		},
+		"URLRewrite": {
+			"Type": "string",
+			"DefaultValue": "2",
+			"SecondaryValue": "7.1.1980.0"
+		},
+		"SQLDOM": {
+			"Type": "string",
+			"DefaultValue": "",
+			"SecondaryValue": "11.1.3000.0"
+		}
+	},
+	"Installers": {
+		"Java": {
+			"Type": "string",
+			"DefaultValue": "jdk-8u151-windows-x64.exe"
+		},
+		"NSSM": {
+			"Type": "string",
+			"DefaultValue": "nssm.exe"
+		},
+		"SQLServer": {
+			"Type": "string",
+			"DefaultValue": "en_sql_server_2016_developer_with_service_pack_1_x64_dvd_9548071.iso"
+		},
+		"SSMS": {
+			"Type": "string",
+			"DefaultValue": "SSMS-Setup-ENU.exe"
+		},
+		"SSDT": {
+			"Type": "string",
+			"DefaultValue": "SSDT_14.0.61712.050_EN.iso"
+		},
+		"Solr": {
+			"Type": "string",
+			"DefaultValue": "solr.zip",
+			"SecondaryValue": "solr-6.6.2"
+		},
+		"WPI": {
+			"Type": "string",
+			"DefaultValue": "WebPlatformInstaller_amd64_en-US.msi"
+		},
+		"SitecoreAzureToolkit": {
+			"Type": "string",
+			"DefaultValue": "Sitecore Azure Toolkit 2.0.3 rev. 180328.zip"
+		}		
+	},
+	"Sitecore": {
+		"InitialInstancePackage": {
+			"Type": "SitecoreInstaller",
+			"DefaultValue": "Sitecore 9.0.0 rev. 171002 (OnPrem)_single.scwdp.zip",
+			"SecondaryValue": "9.0 Initial-Release"
+		},
+		"InitialXconnectPackage": {
+			"Type": "XconnectInstaller",
+			"DefaultValue": "Sitecore 9.0.0 rev. 171002 (OnPrem)_xp0xconnect.scwdp.zip"
+		},
+		"InitialConfig1": {
+			"Type": "InitialConfig",
+			"DefaultValue": "initial-xconnect-createcert.json"
+		},
+		"InitialConfig2": {
+			"Type": "InitialConfig",
+			"DefaultValue": "initial-xconnect-solr.json"
+		},
+		"InitialConfig3": {
+			"Type": "InitialConfig",
+			"DefaultValue": "initial-xconnect-xp0.json"
+		},
+		"InitialConfig4": {
+			"Type": "InitialConfig",
+			"DefaultValue": "initial-sitecore-solr.json"
+		},
+		"InitialConfig5": {
+			"Type": "InitialConfig",
+			"DefaultValue": "initial-sitecore-XP0.json"
+		},
+		"Update1InstancePackage": {
+			"Type": "SitecoreInstaller",
+			"DefaultValue": "Sitecore 9.0.1 rev. 171219 (OnPrem)_single.scwdp.zip",
+			"SecondaryValue": "9.0 with Update-1"
+		},
+		"Update1XconnectPackage": {
+			"Type": "XconnectInstaller",
+			"DefaultValue": "Sitecore 9.0.1 rev. 171219 (OnPrem)_xp0xconnect.scwdp.zip"
+		},
+		"Update1InstancePackageMod": {
+			"Type": "SitecoreInstallerMod",
+			"DefaultValue": "Sitecore 9.0.1 rev. 171219 (OnPrem)_single mod.scwdp.zip",
+			"SecondaryValue": "9.0 with Update-1"
+		},
+		"Update1XconnectPackageMod": {
+			"Type": "XconnectInstallerMod",
+			"DefaultValue": "Sitecore 9.0.1 rev. 171219 (OnPrem)_xp0xconnect mod.scwdp.zip"
+		},
+		"Update1Config1": {
+			"Type": "Update1Config",
+			"DefaultValue": "update1-xconnect-createcert.json"
+		},
+		"Update1Config2": {
+			"Type": "Update1Config",
+			"DefaultValue": "update1-xconnect-solr.json"
+		},
+		"Update1Config3": {
+			"Type": "Update1Config",
+			"DefaultValue": "update1-xconnect-xp0.json"
+		},
+		"Update1Config4": {
+			"Type": "Update1Config",
+			"DefaultValue": "update1-sitecore-solr.json"
+		},
+		"Update1Config5": {
+			"Type": "Update1Config",
+			"DefaultValue": "update1-sitecore-XP0.json"
+		},
+		"Update1ConfigMod": {
+			"Type": "Update1Config",
+			"DefaultValue": "2nd-update1-xconnect-xp0.json"
+		},		
+		"Update2InstancePackage": {
+			"Type": "SitecoreInstaller",
+			"DefaultValue": "Sitecore 9.0.2 rev. 180604 (OnPrem)_single.scwdp.zip",
+			"SecondaryValue": "9.0 with Update-2"
+		},
+		"Update2XconnectPackage": {
+			"Type": "XconnectInstaller",
+			"DefaultValue": "Sitecore 9.0.2 rev. 180604 (OnPrem)_xp0xconnect.scwdp.zip"
+		},
+		"Update2InstancePackageMod": {
+			"Type": "SitecoreInstallerMod",
+			"DefaultValue": "Sitecore 9.0.2 rev. 180604 (OnPrem)_single mod.scwdp.zip",
+			"SecondaryValue": "9.0 with Update-2"
+		},
+		"Update2XconnectPackageMod": {
+			"Type": "XconnectInstallerMod",
+			"DefaultValue": "Sitecore 9.0.2 rev. 180604 (OnPrem)_xp0xconnect mod.scwdp.zip"
+		},
+		"Update2Config1": {
+			"Type": "Update2Config",
+			"DefaultValue": "update2-xconnect-createcert.json"
+		},
+		"Update2Config2": {
+			"Type": "Update2Config",
+			"DefaultValue": "update2-xconnect-solr.json"
+		},
+		"Update2Config3": {
+			"Type": "Update2Config",
+			"DefaultValue": "update2-xconnect-xp0.json"
+		},
+		"Update2Config4": {
+			"Type": "Update2Config",
+			"DefaultValue": "update2-sitecore-solr.json"
+		},
+		"Update2Config5": {
+			"Type": "Update2Config",
+			"DefaultValue": "update2-sitecore-XP0.json"
+		},
+		"CustomPackage": {
+			"Type": "SitecoreCustomInstaller",
+			"DefaultValue": "custom.scwdp.zip",
+			"SecondaryValue": "Generated Custom Package"
+		},
+		"InitialPackagedSite": {
+			"Type": "SitecorePackagedSite",
+			"DefaultValue": "Sitecore 9.0.0 rev. 171002.zip",
+			"SecondaryValue": "Packaged 9.0 Initial-Release"
+		},
+		"Update1PackagedSite": {
+			"Type": "SitecorePackagedSite",
+			"DefaultValue": "Sitecore 9.0.1 rev. 171219.zip",
+			"SecondaryValue": "Packaged 9.0 with Update-1"
+		},
+		"Update1ModPackagedSite": {
+			"Type": "SitecorePackagedSite",
+			"DefaultValue": "Sitecore 9.0.1 rev. 171219 mod.zip",
+			"SecondaryValue": "Modified and Packaged 9.0 with Update-1"
+		},
+		"InitialPackagedSiteCustomParametersXML": {
+			"Type": "CustomTemplateParameters-Initial",
+			"DefaultValue": "CustomTemplate.parameters.xml",
+			"SecondaryValue": "Custom Parameters XML of Packaged 9.0 Initial Release"
+		},
+		"Update1PackagedSiteCustomParametersXML": {
+			"Type": "CustomTemplateParameters-Update1",
+			"DefaultValue": "CustomTemplate.parameters.xml",
+			"SecondaryValue": "Custom Parameters XML of Packaged 9.0 with Update-1"
+		},
+		"CommonPackagingConfig": {
+			"Type": "CommonJSONConfig",
+			"DefaultValue": "Custom.Common.Packaging.config.json",
+			"SecondaryValue": "Common Packaging config for SCCPL generation"
+		}
+	},
+	"SCAzureToolkit": {
+		"Default": {
+			"Type": "string",
+			"DefaultValue": "AzureToolkit203",
+			"RecommendedPath": "C:\\Program Files\\DiamondShell\\Files\\Sitecore\\AzureToolkit203",
+			"Version": "2.0.3"
+		}
+	}
+}
