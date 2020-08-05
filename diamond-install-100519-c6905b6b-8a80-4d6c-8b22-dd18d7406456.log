@@ -1,0 +1,326 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20191005190006
+Username: DESKTOP-3HVI7JU\hanzenriquez
+RunAs User: DESKTOP-3HVI7JU\hanzenriquez
+Configuration Name: 
+Machine: DESKTOP-3HVI7JU (Microsoft Windows NT 10.0.18362.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 8568
+PSVersion: 5.1.18362.145
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.145
+BuildVersion: 10.0.18362.145
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\\diamond-install-100519-c6905b6b-8a80-4d6c-8b22-dd18d7406456.log
+Setting 'PSGAllery' as trusted repository
+
+||=============================================== CHECKING DEPENDENCIES ==============================================||
+
+Checking pre-requisite configuration file
+
+  Pre-requisite config file found
+
+Checking all pre-requisite software
+
+  PowerShellGet 1.0.0.1 is installed
+
+  Azure PowerShell is installed
+
+  Windows Features that needs to be enabled:
+0
+
+    All required Windows Features are enabled
+
+  Java is installed
+
+  Java Environment Path is properly configured and path exists
+
+  SSMS is installed!
+
+  Max timeout for starting Windows Services is configured
+
+  WPI is installed!
+
+    Web Deploy 3.6 for Hosting Servers is installed
+
+    Incorrect version of URL Rewrite is detected!
+
+    SQLDOM is not installed!
+
+    DACFX17 is not installed!
+
+  Solr service (solr-6.6.2) found!
+
+||====================================================================================================================||
+
+||======================================= RE-CHECKING DEPENDENCIES TO DOWNLOAD =======================================||
+
+Re-checking all pre-requisite software
+
+  PowerShellGet 1.0.0.1 is installed
+
+  Azure PowerShell is installed
+
+  Java is installed
+
+  At least 1 SQL Server 2016 instance is detected
+
+  SSMS is installed!
+
+  WPI is installed!
+
+    Web Deploy 3.6 for Hosting Servers is installed
+
+    Incorrect version of URL Rewrite is detected!
+
+    SQLDOM is not installed!
+
+    DACFX17 is not installed!
+
+    DACFX17 is not installed!
+
+  Solr service (solr-6.6.2) found!
+
+||====================================================================================================================||
+
+All required pre-requisite installers exist
+||================================= INSTALLING DEPENDENCIES AND CONFIGURING SYSTEM ===================================||
+
+
+The software that you obtain using the Web Platform Installer Command Line Tool is licensed to you by its owner.  Micros
+oft grants you no rights for third party software.
+Successfully loaded primary feed: https://go.microsoft.com/?linkid=9842185
+The following products are not available on this machine or already installed: UrlRewrite2, UrlRewrite2, UrlRewrite2, Ur
+lRewrite2
+The following software is going to be installed:
+EULA: 'Microsoft SQL Server 2012 SP1 Transact-SQL ScriptDom', which is owned by 'Microsoft', will be downloaded from 'ht
+tp://go.microsoft.com/fwlink/?LinkID=272239'.
+The license agreement to 'Microsoft SQL Server 2012 SP1 Transact-SQL ScriptDom' is available at 'http://www.microsoft.co
+m/web/webpi/eula/Microsoft_SQL_Server_2012_Transact-SQL_ScriptDom_ENG.htm'.
+EULA: 'Microsoft SQL Server 2012 SP1 Transact-SQL ScriptDom (Latest)', which is owned by 'Microsoft' will be installed
+The license agreement to 'Microsoft SQL Server 2012 SP1 Transact-SQL ScriptDom (Latest)' may be included with the softwa
+re.
+You are responsible for and must separately locate, read and accept these license terms.
+EULA: 'Microsoft SQL Server Data-Tier Application Framework (DACFx) for x86 (June 2014)', which is owned by 'Microsoft',
+ will be downloaded from 'http://go.microsoft.com/fwlink/?LinkID=402033&CLCID=0x409'.
+The license agreement to 'Microsoft SQL Server Data-Tier Application Framework (DACFx) for x86 (June 2014)' is available
+ at 'http://www.microsoft.com/web/webpi/eula/SQL14_DACFx_ENG.htm'.
+EULA: 'Microsoft SQL Server Data-Tier Application Framework (DACFx) for x64 (June 2014)', which is owned by 'Microsoft',
+ will be downloaded from 'http://go.microsoft.com/fwlink/?LinkID=402032&CLCID=0x409'.
+The license agreement to 'Microsoft SQL Server Data-Tier Application Framework (DACFx) for x64 (June 2014)' is available
+ at 'http://www.microsoft.com/web/webpi/eula/SQL14_DACFx_ENG.htm'.
+EULA: 'Microsoft SQL Server Data-Tier Application Framework (DACFx) (June 2014)', which is owned by 'Microsoft' will be
+installed
+The license agreement to 'Microsoft SQL Server Data-Tier Application Framework (DACFx) (June 2014)' may be included with
+ the software.
+You are responsible for and must separately locate, read and accept these license terms.
+EULA: 'Microsoft SQL Server Data-Tier Application Framework (DACFx) (June 2014)', which is owned by 'Microsoft' will be
+installed
+The license agreement to 'Microsoft SQL Server Data-Tier Application Framework (DACFx) (June 2014)' may be included with
+ the software.
+You are responsible for and must separately locate, read and accept these license terms.
+Accepted EULA.
+Starting Installation
+Started downloading products...
+Started downloading: 'Microsoft SQL Server 2012 SP1 Transact-SQL ScriptDom'
+Downloaded: 'Microsoft SQL Server 2012 SP1 Transact-SQL ScriptDom'
+Install completed (Failure): 'Microsoft SQL Server 2012 SP1 Transact-SQL ScriptDom'
+SQLDOM_11_1 : Failed.
+Downloaded file failed signature verification and may have been tampered with
+DependencyFailed : Microsoft SQL Server 2012 SP1 Transact-SQL ScriptDom (Latest)
+Started downloading: 'Microsoft SQL Server Data-Tier Application Framework (DACFx) for x86 (June 2014)'
+DependencyFailed : Microsoft SQL Server 2012 SP1 Transact-SQL ScriptDom (Latest)
+Downloaded: 'Microsoft SQL Server Data-Tier Application Framework (DACFx) for x86 (June 2014)'
+Install completed (Failure): 'Microsoft SQL Server Data-Tier Application Framework (DACFx) for x86 (June 2014)'
+DACFX_X86_June2014 : Failed.
+Downloaded file failed signature verification and may have been tampered with
+Started downloading: 'Microsoft SQL Server Data-Tier Application Framework (DACFx) for x64 (June 2014)'
+Downloaded: 'Microsoft SQL Server Data-Tier Application Framework (DACFx) for x64 (June 2014)'
+Install completed (Failure): 'Microsoft SQL Server Data-Tier Application Framework (DACFx) for x64 (June 2014)'
+DACFX_X64_June2014 : Failed.
+Downloaded file failed signature verification and may have been tampered with
+DependencyFailed : Microsoft SQL Server Data-Tier Application Framework (DACFx) (June 2014)
+DependencyFailed : Microsoft SQL Server Data-Tier Application Framework (DACFx) (June 2014)
+DependencyFailed : Microsoft SQL Server Data-Tier Application Framework (DACFx) (June 2014)
+DependencyFailed : Microsoft SQL Server Data-Tier Application Framework (DACFx) (June 2014)
+
+Verifying successful installation...
+Microsoft SQL Server 2012 SP1 Transact-SQL ScriptDom False
+Microsoft SQL Server 2012 SP1 Transact-SQL ScriptDom (Latest) False
+Microsoft SQL Server Data-Tier Application Framework (DACFx) for x86 (June 2014) False
+Microsoft SQL Server Data-Tier Application Framework (DACFx) for x64 (June 2014) False
+Microsoft SQL Server Data-Tier Application Framework (DACFx) (June 2014) False
+Microsoft SQL Server Data-Tier Application Framework (DACFx) (June 2014) False
+Install of Products: FAILURE
+    Incorrect version of URL Rewrite is detected!
+
+    SQLDOM is not installed!
+
+
+
+Attached          : True
+BlockSize         : 0
+DevicePath        : \\.\CDROM4
+FileSize          : 1145776128
+ImagePath         : C:\Users\hanzenriquez\Downloads\Sitecore9\Installers\SSDT_14.0.61712.050_EN.iso
+LogicalSectorSize : 2048
+Number            : 4
+Size              : 1145776128
+StorageType       : 1
+PSComputerName    :
+
+    DACFX17 is not installed!
+
+Attached          : False
+BlockSize         : 0
+DevicePath        :
+FileSize          : 1145776128
+ImagePath         : C:\Users\hanzenriquez\Downloads\Sitecore9\Installers\SSDT_14.0.61712.050_EN.iso
+LogicalSectorSize : 2048
+Number            :
+Size              : 1145776128
+StorageType       : 1
+PSComputerName    :
+
+    Incorrect version of URL Rewrite is detected!
+
+    SQLDOM is not installed!
+
+Attached          : True
+BlockSize         : 0
+DevicePath        : \\.\CDROM4
+FileSize          : 1145776128
+ImagePath         : C:\Users\hanzenriquez\Downloads\Sitecore9\Installers\SSDT_14.0.61712.050_EN.iso
+LogicalSectorSize : 2048
+Number            : 4
+Size              : 1145776128
+StorageType       : 1
+PSComputerName    :
+
+    DACFX17 is not installed!
+
+Attached          : False
+BlockSize         : 0
+DevicePath        :
+FileSize          : 1145776128
+ImagePath         : C:\Users\hanzenriquez\Downloads\Sitecore9\Installers\SSDT_14.0.61712.050_EN.iso
+LogicalSectorSize : 2048
+Number            :
+Size              : 1145776128
+StorageType       : 1
+PSComputerName    :
+
+    Incorrect version of URL Rewrite is detected!
+
+    SQLDOM is not installed!
+
+Attached          : True
+BlockSize         : 0
+DevicePath        : \\.\CDROM4
+FileSize          : 1145776128
+ImagePath         : C:\Users\hanzenriquez\Downloads\Sitecore9\Installers\SSDT_14.0.61712.050_EN.iso
+LogicalSectorSize : 2048
+Number            : 4
+Size              : 1145776128
+StorageType       : 1
+PSComputerName    :
+
+    DACFX17 is not installed!
+
+Attached          : False
+BlockSize         : 0
+DevicePath        :
+FileSize          : 1145776128
+ImagePath         : C:\Users\hanzenriquez\Downloads\Sitecore9\Installers\SSDT_14.0.61712.050_EN.iso
+LogicalSectorSize : 2048
+Number            :
+Size              : 1145776128
+StorageType       : 1
+PSComputerName    :
+
+    Incorrect version of URL Rewrite is detected!
+
+    SQLDOM is not installed!
+
+Attached          : True
+BlockSize         : 0
+DevicePath        : \\.\CDROM4
+FileSize          : 1145776128
+ImagePath         : C:\Users\hanzenriquez\Downloads\Sitecore9\Installers\SSDT_14.0.61712.050_EN.iso
+LogicalSectorSize : 2048
+Number            : 4
+Size              : 1145776128
+StorageType       : 1
+PSComputerName    :
+
+    DACFX17 is not installed!
+
+Attached          : False
+BlockSize         : 0
+DevicePath        :
+FileSize          : 1145776128
+ImagePath         : C:\Users\hanzenriquez\Downloads\Sitecore9\Installers\SSDT_14.0.61712.050_EN.iso
+LogicalSectorSize : 2048
+Number            :
+Size              : 1145776128
+StorageType       : 1
+PSComputerName    :
+
+False
+||====================================================================================================================||
+
+Checking Sitecore Install Framework
+
+WARNING: Unable to find module repositories.
+  SitecoreGallery Powershell repository was downloaded
+
+  SitecoreInstallFramework exists
+
+Checking Sitecore required files
+
+  Error in checking provided path
+
+Collecting Sitecore installation configurations
+
+  Sitecore license file not found
+
+    Sitecore license detected
+
+    Sitecore license path set to C:\Sc9\license.xml
+
+    Supported versions of Sitecore
+      [1] 9.0 Initial-Release
+      [2] 9.0 with Update-1
+      [3] 9.0 with Update-2
+      [00] Generated Custom Package (Full path to custom scwdp zip file required)
+    [1] MSSQLSERVER
+    SQL Server instance login required
+      Incorrect credentials!
+ To cancel, input "_cancel"
+
+PS C:\> TerminatingError(ConvertTo-SecureString): "Cannot bind argument to parameter 'String' because it is an empty string."
+ConvertTo-SecureString : Cannot bind argument to parameter 'String' because it is an empty string.
+At C:\Program Files\DiamondShell\Modules\DiamondShell\SitecoreManager.psm1:322 char:57
++ ... $tempSecpasswd = ConvertTo-SecureString $tempSqlPasswordEntry -AsPlai ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [ConvertTo-SecureString], ParameterBindingValidationException
+    + FullyQualifiedErrorId : 
+ParameterArgumentValidationErrorEmptyStringNotAllowed,Microsoft.PowerShell.Commands.ConvertToSecureStringCommand
+ConvertTo-SecureString : Cannot bind argument to parameter 'String' because it is an empty string.
+At C:\Program Files\DiamondShell\Modules\DiamondShell\SitecoreManager.psm1:322 char:57
++ ... $tempSecpasswd = ConvertTo-SecureString $tempSqlPasswordEntry -AsPlai ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [ConvertTo-SecureString], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Microsoft.PowerShell.Commands.ConvertToSecureStringCommand
+
+      Incorrect credentials!
+ To cancel, input "_cancel"
+
+      Incorrect credentials!
+ To cancel, input "_cancel"
+
